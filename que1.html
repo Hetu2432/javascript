@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate subtotal price of quantity in javascript..?</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        img {
+            border-radius: 50%;
+        }
+        .remove-button {
+            background-color: red;
+            color: white;
+            border: 1px solid black;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<table id="productTable">
+    <thead>
+        <tr>
+            <th>Product Info</th>
+            <th>Quantity</th>
+            <th>Price (per Unit)</th>
+            <th>Price (subtotal)</th>
+            <th>   </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="module2img1.jpg" height="25px" width="25px"><br>Window Hardware-Decorative Holdbacks-Mocha</td>
+            <td><input type="number" class="quantity" value="0" min="0"></td>
+            <td>$29.99</td>
+            <td class="subtotal">$0.00</td>
+            <td><button class="remove-button" onclick="removeRow(this)">Remove</button></td>
+        </tr>
+        <tr>
+            <td><img src="module2img2.jpg" height="25px" width="25px"> <br>Trellis Window Hardware-Clip Rings-Branze</td>
+            <td><input type="number" class="quantity" value="0" min="0"></td>
+            <td>$12.99</td>
+            <td class="subtotal">$0.00</td>
+            <td><button class="remove-button" onclick="removeRow(this)">Remove</button></td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>   </td>
+            <td>   </td>
+            <td>   </td>
+            <td id="total"> $0.00</td>
+            <td>   </td>
+        </tr>
+    </tfoot>
+</table>
+
+<script>
+    function calculateSubtotal(index) {
+        const quantity = parseFloat(document.querySelectorAll('.quantity')[index].value);    /* [INDEX] =  ELEMENT OF INDEX */
+        const pricePerUnit = parseFloat(document.querySelectorAll('td:nth-child(3)')[index].textContent.replace('$', ''));                                                                                                         
+        const subtotal = quantity * pricePerUnit;     /* CALCULATION */
+        document.querySelectorAll('.subtotal')[index].textContent = `$${subtotal.toFixed(2)}`;  
+        updateTotal();     
+    }
+
+    function removeRow(index) {
+        document.querySelector('tbody').deleteRow(index);
+        updateTotal();
+    }
+
+    function updateTotal() {
+        const subtotals = document.querySelectorAll('.subtotal');
+        let total = 0;
+        subtotals.forEach(subtotal => {
+            total += parseFloat(subtotal.textContent.replace('$', ''));
+        });
+        document.getElementById('total').textContent = `Total: $${total.toFixed(2)}`;
+    }
+
+    document.addEventListener('input', function(event) {
+        if (event.target.classList.contains('quantity')) {
+            const index = Array.from(document.querySelectorAll('.quantity')).indexOf(event.target);
+            calculateSubtotal(index);
+        }
+    });
+    
+</script>
+
+</body>
+</html>

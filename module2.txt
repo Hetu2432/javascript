@@ -1,0 +1,859 @@
+
+Question 1 :  What is JavaScript Output method? 
+------------------------------------------------
+
+Answer :
+--------    
+      
+        ----> Javascript output method can be displayed by using different approaches as listed below:-
+             -------------------------------------------------------------------------------------------
+
+         1. Using innerHTML
+         2. Using document.write()
+         3. Using window.alert()
+         4. Using console.log()
+         5. Using window.prompt()
+         6. Using appendChild()
+
+         1. Using innerHTML :
+        ----------------------
+                              It is used to access an element. It defines the HTML content.
+                     Syntax :
+                    ---------- 
+                              document.getElementById("id").innerHTML;
+
+         2. Using document.write() :
+        -----------------------------
+                                     It is used for testing purpose. 
+                             Syntax:
+                            ---------
+                                     document.write();
+
+         3. Using window.alert() :
+        ---------------------------
+                                   It displays the content using an alert box. 
+                          Syntax : 
+                         ----------
+                                   window.alert();
+
+         4. Using console.log() :
+        --------------------------
+                                  It is used for debugging purposes. 
+                         Syntax : 
+                        ----------
+                                  console.log();
+
+         5. Using window.prompt() :
+        ----------------------------
+                                    It Allows to take input from user.
+                           Syntax : 
+                          ----------
+                                    window.prompt();
+                              
+         6. Using appendChild() :
+        --------------------------
+                                  This method allows you to append content to an HTML element. 
+                         Syntax :
+                        ----------
+                                  element.appendChild(node);
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 2 :  How to used JavaScript Output method?
+----------------------------------------------------
+
+Answer :
+---------
+
+1. Using innerHTML:
+--------------------
+                    It is used to access an element. It defines the HTML content.
+
+Syntax:
+--------
+        document.getElementById("id").innerHTML;
+
+Example:  This example uses innerHTML to display the data.
+-------- 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="h1">Hello</h1>
+
+    <script>
+        document.getElementById('h1').innerHTML = "Hello this is my innerHTML program.";
+    </script>
+    
+</body>
+</html>
+
+2. Using document.write():
+---------------------------
+                           It is used for testing purpose. 
+
+Syntax:
+--------
+        document.write();
+
+Example:  This example uses document.write() property to display data. 
+--------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Hello</h1>
+    
+    <script>
+        document.write(10 * 2);
+    </script>
+</body>
+</html>
+
+3. Using window.alert():
+-------------------------
+                        It displays the content using an alert box. 
+
+Syntax:
+--------
+        window.alert();
+
+Example:  This example uses window.alert() property to display data. 
+---------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Hello</h1>
+    
+    <script>
+         window.alert(10 * 2);
+    </script>
+</body>
+</html>
+
+4. Using console.log():
+------------------------
+                        It is used for debugging purposes. 
+
+Syntax:
+--------
+       console.log();
+
+Example:  This example uses the console.log() property to display data. 
+--------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Hello</h1>
+    
+    <script>
+         console.log(10 * 2);
+    </script>
+</body>
+</html>
+
+5. Using window.prompt():
+--------------------------
+                          It Allows to take input from user.
+
+Syntax:
+--------
+        window.prompt();
+
+Example:  In this example, we are using window.prompt().
+---------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Hello</h1>
+    
+    <script>
+        window.prompt("Type Something.....");
+    </script>
+</body>
+</html>
+
+6. Using appendChild():
+------------------------
+                        This method allows you to append content to an HTML element.
+
+Syntax:
+--------
+        element.appendChild(node);
+
+Example:  In this example, we are using appendChild() method.
+---------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <h1>JavaScript Output Example</h1>
+ 
+    <script>
+ 
+        var outputContainer = document.createElement("div");
+ 
+        var userInput = window.prompt('Enter something:');
+        var output = document.createElement("p");
+        output.appendChild(document
+                           .createTextNode('You entered: ' + userInput));
+        outputContainer.appendChild(output);
+ 
+        document.body.appendChild(outputContainer);
+    </script>
+ 
+</body>
+ 
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 3 :   How to used JavaScript Events to do all examples? 
+-----------------------------------------------------------------
+Answer :   
+--------- 
+      
+         The change in the state of an object is known as an Event.
+         In html, there are various events which represents that some activity is performed by the user or by the browser.
+         When javascript code is included in HTML, js react over these events and allow the execution. 
+         This process of reacting over the events is called Event Handling.
+         Thus, js handles the HTML events via Event Handlers.
+
+   ----> Some types os javascript events are:-
+         --------------------------------------
+              
+                              1. Mouse Events
+                              2. Keyboard Events
+                              3. Form Events 
+                              4. Window/Document Events
+
+1. MOUSE EVENTS:-
+------------------
+------------------
+
+A. onclick event: 
+------------------ 
+                  When mouse click on an element.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myButton {
+          padding: 10px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      </style>
+    </head>
+    <body>
+    
+    <button id="btn" onclick="buttonClick()">Click me</button>
+    
+    <script>
+      function buttonClick() {
+        alert("Button clicked!");
+      }
+    </script>
+    
+    </body>
+ </html>
+
+
+B. onmouseover event:
+----------------------
+        	      When the cursor of the mouse comes over the element.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #i1 {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px;
+            text-align: center;
+            line-height: 200px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div id="i1" onmouseover="changeColor()" onmouseout="resetColor()">Mouseover Event</div>
+
+<script>
+    function changeColor() {
+        document.getElementById("i1").style.backgroundColor = "lightgreen";
+    }
+
+    function resetColor() {
+        document.getElementById("i1").style.backgroundColor = "lightblue";
+    }
+</script>
+
+</body>
+</html>
+
+
+
+C. onmouseout event:
+---------------------
+                     When the cursor of the mouse leaves an element.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #i1 {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="i1" onmouseout="mouseOutFunction()">Mouseout Event</div>
+
+<script>
+  function mouseOutFunction() {
+    document.getElementById("i1").style.backgroundColor = "lightblue";
+  }
+</script>
+
+</body>
+</html>
+
+
+
+D. onmousedown	event:
+-----------------------
+                       When the mouse button is pressed over the element.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #i1 {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="i1" onmousedown="mouseDownFunction()">Mousedown Event</div>
+
+<script>
+  function mouseDownFunction() {
+    document.getElementById("i1").style.backgroundColor = "lightcoral";
+  }
+</script>
+
+</body>
+</html>
+
+E. onmouseup event:
+--------------------
+                    When the mouse button is released over the element.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #i1 {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="i1" onmousedown="mouseDownFunction()" onmouseup="mouseUpFunction()">Mouseup Event</div>
+
+<script>
+  function mouseDownFunction() {
+    document.getElementById("i1").style.backgroundColor = "lightcoral";
+  }
+
+  function mouseUpFunction() {
+    document.getElementById("i1").style.backgroundColor = "lightblue";
+  }
+</script>
+
+</body>
+</html>
+
+
+F. onmousemove event:
+----------------------
+                      When the mouse movement takes place.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #i1 {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="i1" onmousemove="mouseMoveFunction()">Mousemove Event</div>
+
+<script>
+  function mouseMoveFunction() {
+    document.getElementById("i1").style.backgroundColor = "lightcoral";
+  }
+</script>
+
+</body>
+</html>
+
+
+2. KEYBOARD EVENTS :-
+----------------------
+----------------------
+
+A.onkeydown & onkeyup event:
+-----------------------------
+                             When the user press and then release the key.
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #i1 {
+      padding: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<input type="text" id="i1" onkeydown="keyDownFunction()" onkeyup="keyUpFunction()" placeholder="Type something...">
+
+<script>
+  function keyDownFunction() {
+    console.log("Key down event");
+  }
+
+  function keyUpFunction() {
+    console.log("Key up event");
+  }
+</script>
+
+</body>
+</html>
+ 
+
+3. FORM EVENTS:-
+-----------------
+-----------------
+
+A. onfocus event:
+------------------
+                  When the user focuses on an element.
+
+Example:
+----------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #i1 {
+      padding: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<input type="text" id="i1" onfocus="focusFunction()" placeholder="Focus Events">
+
+<script>
+  function focusFunction() {
+    document.getElementById("i1").style.backgroundColor = "lightyellow";
+  }
+</script>
+
+</body>
+</html>
+
+
+
+B. onsubmit event:
+-------------------
+                   When the user submits the form.
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #i1 {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+<form id="i1" onsubmit="submitForm(event)">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  function submitForm(event) {
+    event.preventDefault(); 
+    alert("Form submitted!");
+  }
+</script>
+
+</body>
+</html>
+
+
+C. onblur event:
+-----------------
+                 When the focus is away from a form element.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #i1 {
+      padding: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<input type="text" id="i1" onblur="blurFunction()" placeholder="blur events.....">
+
+<script>
+  function blurFunction() {
+    document.getElementById("i1").style.backgroundColor = "lightpink";
+  }
+</script>
+
+</body>
+</html>
+
+
+D. onchange event :
+--------------------
+                    When the user modifies or changes the value of a form element.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #i1 {
+      padding: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<label for="mySelect">Select a fruit:</label>
+<select id="i1" onchange="changeFunction()">
+  <option value="apple">Apple</option>
+  <option value="banana">Banana</option>
+  <option value="orange">Orange</option>
+</select>
+
+<p id="selectedFruit">Selected fruit: </p>
+
+<script>
+  function changeFunction() {
+    var selectedValue = document.getElementById("i1").value;
+    document.getElementById("selectedFruit").innerText = "Selected fruit: " + selectedValue;
+  }
+</script>
+
+</body>
+</html>
+
+
+4. WINDOW / DOCUMENT EVENTS:-
+------------------------------
+------------------------------
+
+A. onload event:
+-----------------
+                  When the browser finishes the loading of the page.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    #i1 {
+      font-size: 18px;
+      color: green;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body onload="loadFunction()">
+
+  <h1>Welcome to the Page</h1>
+  <p id="i1">Loading...</p>
+
+  <script>
+    function loadFunction() {
+      document.getElementById("i1").innerText = "Page loaded!";
+    }
+  </script>
+
+</body>
+</html>
+
+
+B. onunload event:
+-------------------
+                   When the visitor leaves the current webpage, the browser unloads it.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    #i1 {
+      font-size: 18px;
+      color: red;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body onunload="unloadFunction()">
+
+  <h1>Goodbye!</h1>
+  <p id="i1">This page will be unloaded soon...</p>
+
+  <script>
+    function unloadFunction() {
+      alert("Unloading the page!");
+    
+    }
+  </script>
+
+</body>
+</html>
+
+
+C. onresize event:
+-------------------
+                   When the visitor resizes the window of the browser.
+
+Example:
+---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    #i1 {
+      font-size: 18px;
+      color: blue;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body onresize="resizeFunction()">
+
+  <h1>Resize the Browser Window</h1>
+  <p id="i1">Window size: <span id="w1"></span></p>
+
+  <script>
+    function resizeFunction() {
+      var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+      document.getElementById("w1").innerText = windowWidth + " x " + windowHeight;
+    }
+    resizeFunction();
+  </script>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+        
+
+
+
+
+
