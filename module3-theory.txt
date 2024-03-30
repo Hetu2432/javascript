@@ -1,0 +1,486 @@
+Question 1. : What is React Js?
+--------------------------------
+
+Answer :
+--------
+    --> React is a framework that employs Webpack to automatically compile React, JSX, and ES6 code while handling CSS
+        file prefixes. React is a JavaScript-based UI development library. Although React is a library rather than a
+        language, it is widely used in web development. The library first appeared in May 2013 and is now one of the
+        most commonly used frontend libraries for web development.
+
+    --> React offers various extensions for entire application architectural support, such as Flux and React Native, 
+        beyond mere UI.
+
+    --> React is one of the most popular front-end JavaScript libraries in the field of web development. It is mainly 
+        maintained by Facebook and a large community of developers. A number of large, established companies (Netflix,
+        Instagram, Airbnb, to name a few) use it to build their user interfaces and UI components. Whether you’re new
+        to ReactJS or just want a quick refresh on its core concepts, this ReactJS tutorial will give you an 
+        introduction to React fundamentals, its features and components.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 2. : What is NPM in React Js?
+---------------------------------------
+
+Answer :
+---------
+    --> The command npm is used to download JavaScript packages from Node Package Manager, and npx is used to execute
+        JavaScript packages downloaded this way. This command will download the NPM package create-react-app to a 
+        subdirectory of the current working directory named node_modules : npm install create-react-app.
+
+    --> NPM stands for Node Package Manager. It is a Javascript package manager and the default package manager for
+        Node projects. NPM is installed when NodeJS is installed on a machine. It comes with a command-line interface 
+        (CLI) used to interact with the online database of NPM. , and it hosts public and private 'packages.' To add
+        or update packages, we use the NPM CLI to interact with this database. 
+
+    --> Isaac Z. Schlueter developed NPM purely in Javascript. It was first released in November 2010. Ever since, 
+        NPM has had a lot of updates and has improved in terms of efficiency, speed and security.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 3. : What is Role of Node Js in react Js?
+---------------------------------------------------
+
+Answer :
+---------
+    --> NodeJS is a framework of JavaScript which is mainly used for working with the backend of our application or
+        building the backend using JavaScript, whereas ReactJS is a JavaScript front-end library. It is mainly used 
+        for building the user interface or the frontend of our application. 
+
+    --> 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 4. : What is CLI command In React Js?
+-----------------------------------------------
+
+Answer :
+---------
+
+    --> React has its own command-line interface (CLI) commands. However, these CLI commands are currently only used to
+        create a passable version of a react application using the command line. This will contain a default template as
+        its design, so all the react application created this way will have great consistency as they all have same
+        structure.
+
+    --> Basic CLI Commands in React :-
+        Let us learn the basic commands available in Create React App command line application in this chapter.
+
+    --> Creating a new application :-
+        Create React App provides multiple ways to create React application.
+
+    --> Using npx script :-
+        npx create-react-app <react-app-name>
+        npx create-react-app hello-react-app
+
+    --> Using npm package manager :-
+        npm init react-app <react-app-name>
+        npm init react-app hello-react-app
+
+    --> Using yarn package manager :-
+        yarn init react-app <react-app-name>
+        yarn init react-app hello-react-app
+
+    --> Selecting a template :-
+        --> Create React App creates React application using default template. Template refers the initial code with 
+            certain build-in functionality. There are hundreds of template with many advanced features are available 
+            in npm package server. Create React App allows the users to select the template through -template command 
+            line switch.
+
+        create-react-app my-app --template typescript
+       
+    --> Above command will create react app using cra-template-typescript package from npm server.
+
+    --> Installing a dependency :-
+        React dependency package can be installed using normal npm or yarn package command as React uses the project
+        structure recommended by npm and yarn.
+
+    --> Using npm package manager :-
+        npm install --save react-router-dom
+
+    --> Using yarn package manager :-
+        yarn add react-router-dom
+
+    --> Running the application :-
+        React application can be started using npm or yarn command depending on the package manager used in the project.
+
+    --> Using npm package manager :-
+        npm start
+    --> Using yarn package manager :-
+        yarn start
+
+    --> To run the application in secure mode (HTTPS), set an environment variable, HTTPS and set it to true before
+        starting the application. For example, in windows command prompt (cmd.exe), the below command set HTTPS and 
+        starts the application is HTTPS mode.
+        set HTTPS=true && npm start
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 5. : What is Components in React Js?
+----------------------------------------------
+
+Answer :
+---------
+
+    --> Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions,
+        but work in isolation and return HTML.
+
+    --> Components come in two types, Class components and Function components, in this tutorial we will concentrate 
+        on Function components.
+
+    --> Class Component :-
+        --> A class component must include the extends React.Component statement. This statement creates an inheritance 
+            to React.Component, and gives your component access to React.Component's functions.
+
+        --> The component also requires a render() method, this method returns HTML.
+
+    --> Function Component :-
+        --> Here is the same example as above, but created using a Function component instead.
+
+        --> A Function component also returns HTML, and behaves much the same way as a Class component, but Function
+            components can be written using much less code, are easier to understand, and will be preferred in this
+            tutorial.
+
+    --> Rendering a Component :-
+        --> Now your React application has a component called Car, which returns an <h2> element.
+
+        --> To use this component in your application, use similar syntax as normal HTML: <Car />
+
+    --> Props :-
+        --> Components can be passed as props, which stands for properties.
+
+        --> Props are like function arguments, and you send them into the component as attributes.
+
+        --> You will learn more about props in the next chapter.
+
+    --> Components in Files :-
+        --> React is all about re-using code, and it is recommended to split your components into separate files.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 6. : What is Header and Content Components in React Js?
+-----------------------------------------------------------------
+
+Anawer :
+---------
+
+    --> Header component in React Js :-
+
+    --> Documentation and examples for the Header powerful, responsive navigation header. Includes support for branding,
+        links, dropdowns, and more.
+
+    --> Headers come with built-in support for a handful of sub-components. Choose from the following as needed :-
+
+        <CHeaderBrand> for your company, product, or project name.
+	<CHeaderNav> for a full-height and lightweight navigation (including support for dropdowns).
+	<CHeaderToggler> for use with our collapse plugin and other navigation toggling behaviors.
+	Flex and spacing utilities for any form controls and actions.
+	<CHeaderText> for adding vertically centered strings of text.
+	<CCollapse className="header-collapse"> for grouping and hiding header contents by a parent breakpoint.
+
+    --> Content component in React Js :-
+
+    --> Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, 
+        but work in isolation and return HTML. Components come in two types, Class components and Function components,
+        in this tutorial we will concentrate on Function components.
+
+    --> For example, if we were building the UI of React website using Reactjs we can break its UI into smaller parts
+        as shown in the figure. Instead of building the whole UI under one single file like HTML, we can divide all the
+        sections (marked with red) into smaller independent pieces. In other words, these are components.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 7. : How to install React Js on Windows, linux Operating System? How to install NPM and How to check version of NPM?
+------------------------------------------------------------------------------------------------------------------------------
+
+Answer :
+---------
+
+    --> installation steps of React Js :-
+---------------------------------------------
+  
+    --> Step 1 :-
+        Install Node.js installer for windows. Click on this link. Here install the LTS version (the one present on the
+        left). Once downloaded open NodeJS without disturbing other settings, click on the Next button until it’s 
+        completely installed.
+
+    --> Step 2 :-
+        Open command prompt  to check whether it is completely installed or not type the command –> 
+
+    --> Step 3 :-
+       --> Now in the terminal run the below command :- 
+           npm install -g create-react-app  
+       --> It will globally install react app for you. To check everything  went well run the command  
+           create-react-app --version
+       --> If everything went well it will give you the installed version of react app
+
+    --> Step 4 :-
+        --> Now Create a new folder where you want to make your react app using the below command :- 
+            mkdir newfolder
+
+    --> Step 5 :-
+       --> Now inside this folder run the command –>
+           create-react-app reactfirst YOUR_APP_NAME
+
+    --> Step 6 :-
+        Now open the IDE of your choice for eg.  Visual studio code and open the folder where you have installed the 
+        react app newfolder (in the above example)  inside the folder you will see your app’s name reactapp (In our
+        example). Use the terminal and move inside your app name folder.Use command  cd reactapp (your app name)
+
+    --> Step 7 :-
+       --> To start your app run the below command :-
+           npm start  
+
+    --> installation steps of NPM :-
+----------------------------------------
+
+    -->Step 1 :-
+      --> Download the Package Manager from the official website.
+      --> To install Node JS on the system, the first step is to download its package manager, the NPM.
+      --> You can search the official website on Google or click on this link to navigate:
+          https://nodejs.org/en/download/ for the node install process.
+      --> For Windows, you have to select the Windows Installer (.msi) according to the architecture of your installed 
+          operating system. Both 32-bit and 64-bit versions are available, and you can download them just by clicking
+          on them.
+
+    --> Step 2 :-
+       --> Running the downloaded file on your system
+       --> After Downloading the installation package, locate it on your system and double-click on it.
+       --> After that, a dialogue box will appear, seeking permission to run the NPM. Click on Run to start the
+           installation process.
+
+    --> Step 3 :-
+       -->  Install NPM Windows through Wizard
+       --> After hitting the Run button, a new dialogue box will be displayed.
+       --> Click on Next to continue with the process.
+
+    --> Step 4 :-
+       --> Accepting the Terms and Conditions
+       --> Further, select the check box to agree with the terms and conditions to use the Node JS on your computer 
+           system. Then, select Next to move ahead.
+
+    --> Step 5 :-
+       --> Defining the Path
+       --> You have to define the location where you want to install the Node JS on your machine. By default, the
+           destination for the file is set to the Program Files folder available in Local Disk C.
+       --> You can modify the file destination through the Change button.
+       --> In addition, all the core files and future updates are available in this location only. So, ample storage 
+           space must be available to allow Node JS to function efficiently.
+
+    --> Step 6 :-
+       --> Defining the core features to be installed
+       --> Once you’ve determined the path, you will proceed to select Custom Setup. Here, you need to choose the 
+           features you want to install.
+       --> A total of 143MB of free storage is required to install the main components as listed below:
+           --js runtime
+           --Corepack manager
+           --Npm package manager
+           --Online documentation shortcuts
+
+    --> Step 7 :-
+        --> Allowing Automatic Tool Installation (Optional)
+        --> This step is optional; you can ignore it if you don’t need to install any additional tools with Node.js.
+        --> And if you require any extra tools, you can select the check box and move further by clicking on the Next
+            button.
+        --> After successfully configuring Node.js, it will download the appropriate package to install these tools.
+
+    --> Step 8 :-
+       --> Install Node JS Windows
+       --> Click on the Install button to start the process and wait for it to complete. Also, you can go back if you
+           want to modify any setting.
+
+    --> Step 9 :-
+       --> Installation in Progress
+       --> You will see a progress bar providing the current status when the Node JS installation is in-between.
+
+    --> Step 10 :-
+       --> NPM and Node JS are installed
+       --> After configuring the relevant settings and performing core operations, the system will install all the files
+           on your computer, and you will be ready to commence using them.
+
+    --> Step 11 :- 
+        --> Installing Additional Tool
+        --> If you have selected the check box to have additional tools, then CMD will open after Node JS has been 
+            installed, and you have to follow the provided instructions.
+
+    --> checking NPM version :-
+---------------------------------
+        the command npm -v or npm –version in your command prompt to see the given output.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 8. : How to check version of React Js? 
+------------------------------------------------
+
+Anawer :
+---------
+
+    --> React is a Javascript front-end library that is used to build single-page applications (SPA). Knowing the version
+        can help you understand the available features, check for updates, and ensure compatibility with other
+        dependencies. In this article, we will explore different methods to check the version of ReactJS.
+
+    --> To check the version of React we can use these 3 approaches :-
+        --> Using package.json file
+        --> Using the command line
+        --> Using the version property of default import from React
+
+    --> Approach 1 :-
+       --> Using the package.json file :-
+           The package.json contains metadata about our project. It is created by default when we create our React
+           project. We can create a react app using the command mentioned below. 
+       --> npx create-react-app name_of_the_app
+       --> The package.json file contains a lot of information in the name/value pairs in JSON format. We can easily
+           check our React version under the list of dependencies as shown in the image given below.
+
+    --> Approach 2 :-
+       --> We can easily check the React version by using the command mentioned below on our command line.
+       --> npm view react version
+       --> The output demonstrating the use of the above command on the command line is mentioned below.
+
+    --> Approach 3 :-
+       --> Using the version property of default import from React
+       --> The default import from React library is an object that has a version property on it. We can use this property
+           inside our JSX elements in our desired manner. 
+       
+       --> Syntax :-
+           import React from 'react';
+           let a = React.version
+
+        --> To follow along with the article create a react project using the command that was discussed above in the 
+            article. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 9. : How to change in components of React Js? 
+-------------------------------------------------------
+
+Answer : 
+---------
+    
+    --> 1. State Management :-
+--> Class Components :-
+Use the state object to manage the internal state of a component.
+Update state using this.setState({ newState }).
+
+Example :-
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 0,
+    };
+  }
+
+  handleClick = () => {
+    this.setState({ counter: this.state.counter + 1 });
+  };
+
+  render() {
+    return (
+      <div>
+        <p>Counter: {this.state.counter}</p>
+        <button onClick={this.handleClick}>Increment</button>
+      </div>
+    );
+  }
+}
+
+--> Functional Components (with Hooks) :-
+Use the useState hook to manage state in functional components.
+
+Example :- 
+import React, { useState } from 'react';
+
+function MyComponent() {
+  const [counter, setCounter] = useState(0);
+
+  const handleClick = () => {
+    setCounter(counter + 1);
+  };
+
+  return (
+    <div>
+      <p>Counter: {counter}</p>
+      <button onClick={handleClick}>Increment</button>
+    </div>
+  );
+}
+
+    --> 2. Props :-
+Pass data from parent components to child components using props.
+
+Example :-
+import React from 'react';
+import ChildComponent from './ChildComponent';
+
+function ParentComponent() {
+  const data = 'Hello from Parent';
+
+  return <ChildComponent message={data} />;
+}
+
+// ChildComponent.js
+import React from 'react';
+
+function ChildComponent(props) {
+  return <p>{props.message}</p>;
+}
+
+    --> 3. Event Handling :-
+Attach event handlers to components to respond to user interactions.
+
+Example :-
+class MyComponent extends React.Component {
+  handleClick = () => {
+    console.log('Button clicked!');
+  };
+
+  render() {
+    return <button onClick={this.handleClick}>Click me</button>;
+  }
+}
+
+    --> 4. Lifecycle Methods (for Class Components) :-
+Use lifecycle methods to perform actions at different stages of a component's life.
+Common methods include componentDidMount, componentDidUpdate, and componentWillUnmount.
+
+    --> 5. Conditional Rendering :-
+Use conditional statements to render different content based on certain conditions.
+ 
+Example :-
+function MyComponent({ isLoggedIn }) {
+  return isLoggedIn ? <p>Welcome, User!</p> : <p>Please log in</p>;
+}
+
+    --> 6. Updating UI :-
+React automatically updates the UI when the state or props change.
+Ensure that you use the appropriate methods to trigger updates.
+
+    --> 7. Hooks (for Functional Components) :-
+Use additional hooks like useEffect for handling side effects in functional components.
+
+Example :-
+import React, { useState, useEffect } from 'react';
+
+function MyComponent() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    // Fetch data or perform side effects
+    // Update state with setData
+  }, []); // Dependency array controls when the effect runs
+} 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
