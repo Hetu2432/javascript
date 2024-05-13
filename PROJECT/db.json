@@ -1,0 +1,333 @@
+{
+  "signupdata": [
+    {
+      "id": "2e23",
+      "name": "test",
+      "email": "test@gmail.com",
+      "phone": "65322456623",
+      "password": "test123"
+    },
+    {
+      "id": "d1c5",
+      "name": "darshanbhai",
+      "email": "dar@gmail.com",
+      "phone": "122244556",
+      "password": "darshan123"
+    },
+    {
+      "id": "f09b",
+      "name": "harsh",
+      "email": "h@gmail.com",
+      "phone": "132546546",
+      "password": "harsh123"
+    }
+  ],
+  "addtocart": [
+    {
+      "id": "deba",
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1013404/0pMglMofi-1013404_1.jpg",
+      "title": "Simple Kind To Skin Hydrating Light Moisturiser",
+      "price": "3 * 599.00",
+      "price1": "599.00",
+      "quantity": "3"
+    }
+  ],
+  "users": [
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1119806/qE5G2WYMcR-1119806_1.jpg",
+      "title": "Stars Cosmetics Face Makeup Liquid Foundation - Beige",
+      "price": "750.00",
+      "id": "950e"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/cadiveu/958077/0/DSTtRqLe85-958077-1.jpg",
+      "title": "HYDRATING HAIR COMPLEX MASK",
+      "price": "120.00",
+      "id": "a74f"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1013404/0pMglMofi-1013404_1.jpg",
+      "title": "Simple Kind To Skin Hydrating Light Moisturiser",
+      "price": "599.00",
+      "id": "1539"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1091942/i2KS5Bcxys-8906734456002_1.jpg",
+      "title": "mCaffeine Must Have Winter skin care Set (4Pcs)",
+      "price": "1691.00",
+      "id": "cb75"
+    }
+  ],
+  "shop": [
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/miss-claire/1025601/0/T6Xw0PaLje-cGssjutfPS-rDKl4YdEqK1-1025601_1.jpg",
+      "title": "Miss Claire 8 Pressed Makeup Palette - 2",
+      "price": "396.00",
+      "id": "a302"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/makeup-revolution-london/961060/0/OC8jRAk46B-kURhhSBz9A-961060_1.jpg",
+      "title": "Makeup Revolution Cheek Kit Face Palette - Fresh Perspective ",
+      "price": "765.00",
+      "id": "3019"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/cadiveu/958077/0/DSTtRqLe85-958077-1.jpg",
+      "title": "HYDRATING HAIR COMPLEX MASK",
+      "price": "120.00",
+      "id": "f722"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/biolage/COMBO_231026053554-U9X/0/Md_8qqIg4X-1103003_Combo_21_1-QrHYQVDR8.jpg",
+      "title": "PROFESSIONAL CARE FOR HAIR DRYER",
+      "price": "89.00",
+      "id": "40c6"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/853732/1iGYjoV1E-8904023001216_1.jpg",
+      "title": "TRICHUP HAIR OIL",
+      "price": "59.00",
+      "id": "c3e3"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/cadiveu/COMBO_231107092626-IPG/0/DxBxY6X1Mv-958079_combo_1_1.jpg?dpr=1",
+      "title": "SHAMPOO & CONDITIONER COMBO",
+      "price": "395.00",
+      "id": "e238"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/the-moms-co/COMBO_240207101433-B-J/0/i1s2XRiNIP-1120701_Combo_5-1.jpg",
+      "title": "The Mom's Co. Natural Skin Hydrating Re Gime Combo Kit",
+      "price": "758.00",
+      "id": "fd08"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1051676/GV3Oz0_OFT-1051676_1.jpg",
+      "title": "WOW SKIN SCIENCE Ubtan Face & Body Pack",
+      "price": "599.00",
+      "id": "ee52"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/959535/727v7OKuMo-959535_1.jpg",
+      "title": "mCaffeine Coffee Mood Skin Care Gift Kit - (4 Pcs)",
+      "price": "1696.00",
+      "id": "a570"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1091942/i2KS5Bcxys-8906734456002_1.jpg",
+      "title": "mCaffeine Must Have Winter skin care Set (4Pcs)",
+      "price": "1691.00",
+      "id": "66e1"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/minimalist/COMBO_240131094158-PWH/0/7i-JlNg4Qe-1090193_Combo_2-1.jpg",
+      "title": "Minimalist Daily Skincare Routine For Sensitive Skin & Damaged Barrier Csms Combo",
+      "price": "1753.00",
+      "id": "ec1f"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/fae-beauty/1067714/0/8CO3rSmgoP-6clMS5lKqq-8908012952145_1.jpg",
+      "title": "FAE BEAUTY Skincare Combo - SPF Juice & No BS Cleanser (2Pcs)",
+      "price": "840.00",
+      "id": "9289"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1132173/9buuCEfOxA-1132173-1.jpg",
+      "title": "The Face Shop The Therapy Vegan Trial Kit - (2 pcs)",
+      "price": "1104.00",
+      "id": "137c"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1119806/qE5G2WYMcR-1119806_1.jpg",
+      "title": "Stars Cosmetics Face Makeup Liquid Foundation - Beige",
+      "price": "750.00",
+      "id": "b997"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1135311/82e6YLW1Ge-1135311_1.jpg",
+      "title": "Swiss Beauty Say Hi Makeup Kit ",
+      "price": "919.00",
+      "id": "274c"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/brillare/938502/0/D-YWraW2QV-Km7dgJUuO0-938502_1.jpg",
+      "title": "HEAVY MOISTUIRING SHAMPOO",
+      "price": "99.00",
+      "id": "ec7a"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1122707/rsiAOTqFVu-1122707_1.jpg",
+      "title": "PROMOTES HAIR GROWTH",
+      "price": "149.00",
+      "id": "51ba"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/biolage/COMBO_231026053605-G5T/0/9sudxmonrW-1103102_Combo_22_1-as9PoifKd.jpg",
+      "title": "PROFESSIONAL CARE FOR COLORED HAIR",
+      "price": "183.00",
+      "id": "e46c"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1013404/0pMglMofi-1013404_1.jpg",
+      "title": "Simple Kind To Skin Hydrating Light Moisturiser",
+      "price": "599.00",
+      "id": "989f"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/828337/A_kAqj-x_-828337_1.jpg",
+      "title": "Cetaphil Oily Skin Cleanser",
+      "price": "610.00",
+      "id": "881e"
+    }
+  ],
+  "makeup": [
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/miss-claire/1025601/0/T6Xw0PaLje-cGssjutfPS-rDKl4YdEqK1-1025601_1.jpg",
+      "title": "Miss Claire 8 Pressed Makeup Palette - 2",
+      "price": "396.00",
+      "id": "7154"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1119806/qE5G2WYMcR-1119806_1.jpg",
+      "title": "Stars Cosmetics Face Makeup Liquid Foundation - Beige",
+      "price": "750.00",
+      "id": "c919"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/makeup-revolution-london/961060/0/OC8jRAk46B-kURhhSBz9A-961060_1.jpg",
+      "title": "Makeup Revolution Cheek Kit Face Palette - Fresh Perspective ",
+      "price": "765.00",
+      "id": "3cd6"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1135311/82e6YLW1Ge-1135311_1.jpg",
+      "title": "Swiss Beauty Say Hi Makeup Kit ",
+      "price": "919.00",
+      "id": "825b"
+    }
+  ],
+  "skincare": [
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/the-moms-co/COMBO_240207101433-B-J/0/i1s2XRiNIP-1120701_Combo_5-1.jpg",
+      "title": "The Mom's Co. Natural Skin Hydrating Re Gime Combo Kit",
+      "price": "758.00",
+      "id": "7e6e"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1013404/0pMglMofi-1013404_1.jpg",
+      "title": "Simple Kind To Skin Hydrating Light Moisturiser",
+      "price": "599.00",
+      "id": "6089"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1051676/GV3Oz0_OFT-1051676_1.jpg",
+      "title": "WOW SKIN SCIENCE Ubtan Face & Body Pack",
+      "price": "599.00",
+      "id": "64b5"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/828337/A_kAqj-x_-828337_1.jpg",
+      "title": "Cetaphil Oily Skin Cleanser",
+      "price": "610.00",
+      "id": "98b5"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/959535/727v7OKuMo-959535_1.jpg",
+      "title": "mCaffeine Coffee Mood Skin Care Gift Kit - (4 Pcs)",
+      "price": "1696.00",
+      "id": "4b79"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1051799/Ept9fP00x-1051799_1.jpg",
+      "title": "WOW SKIN SCIENCE Retinol Face Cream (50ml)",
+      "price": "383.00",
+      "id": "5c62"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1091942/i2KS5Bcxys-8906734456002_1.jpg",
+      "title": "mCaffeine Must Have Winter skin care Set (4Pcs)",
+      "price": "1691.00",
+      "id": "5efa"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/the-moms-co/COMBO_240207101433-FDU/0/7SOenHs2-d-995314_Combo_6-1.jpg",
+      "title": "The Mom's Co. Natural Glowin G Skin Care Routine Kit",
+      "price": "837.00",
+      "id": "5b3e"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/minimalist/COMBO_240131094158-PWH/0/7i-JlNg4Qe-1090193_Combo_2-1.jpg",
+      "title": "Minimalist Daily Skincare Routine For Sensitive Skin & Damaged Barrier Csms Combo",
+      "price": "1753.00",
+      "id": "7ce0"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/arata/1016366/0/V7ykw2qX8e-A0TDY4U_dP-1.png",
+      "title": "Arata Natural Hydrating Face Serum",
+      "price": "449.00",
+      "id": "b3bd"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/fae-beauty/1067714/0/8CO3rSmgoP-6clMS5lKqq-8908012952145_1.jpg",
+      "title": "FAE BEAUTY Skincare Combo - SPF Juice & No BS Cleanser (2Pcs)",
+      "price": "840.00",
+      "id": "a3f0"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/the-moms-co/995402/0/P85-AUho0G-rtr4rFwzb-995402_1.jpg?dpr=1",
+      "title": "The Mom's Co. Daily Skincare Essentials Box",
+      "price": "891.00",
+      "id": "a444"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1132173/9buuCEfOxA-1132173-1.jpg",
+      "title": "The Face Shop The Therapy Vegan Trial Kit - (2 pcs)",
+      "price": "1104.00",
+      "id": "a370"
+    }
+  ],
+  "haircare": [
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/cadiveu/958077/0/DSTtRqLe85-958077-1.jpg",
+      "title": "HYDRATING HAIR COMPLEX MASK",
+      "price": "120.00",
+      "id": "4240"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/brillare/938502/0/D-YWraW2QV-Km7dgJUuO0-938502_1.jpg",
+      "title": "HEAVY MOISTUIRING SHAMPOO",
+      "price": "99.00",
+      "id": "0f20"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/biolage/COMBO_231026053554-U9X/0/Md_8qqIg4X-1103003_Combo_21_1-QrHYQVDR8.jpg",
+      "title": "PROFESSIONAL CARE FOR HAIR DRYER",
+      "price": "89.00",
+      "id": "164b"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1122707/rsiAOTqFVu-1122707_1.jpg",
+      "title": "PROMOTES HAIR GROWTH",
+      "price": "149.00",
+      "id": "59eb"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/853732/1iGYjoV1E-8904023001216_1.jpg",
+      "title": "TRICHUP HAIR OIL",
+      "price": "59.00",
+      "id": "dc79"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/biolage/COMBO_231026053605-G5T/0/9sudxmonrW-1103102_Combo_22_1-as9PoifKd.jpg",
+      "title": "PROFESSIONAL CARE FOR COLORED HAIR",
+      "price": "183.00",
+      "id": "cfa4"
+    },
+    {
+      "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/cadiveu/COMBO_231107092626-IPG/0/DxBxY6X1Mv-958079_combo_1_1.jpg?dpr=1",
+      "title": "SHAMPOO & CONDITIONER COMBO",
+      "price": "395.00",
+      "id": "894e"
+    }
+  ]
+}

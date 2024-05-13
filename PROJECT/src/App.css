@@ -1,0 +1,289 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #47ccde ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
+
+/* custom css start*/
+.navbar{
+  width: 97%;
+  margin: auto;
+}
+.po1{
+  position: relative;
+}
+.ab1{
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  background-color: white;
+  padding: 10px 20px;
+
+}
+.ab2{
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  background-color: white;
+  padding: 10px 15px;
+  display: none;
+  transition: .31s;
+}
+.po1:hover .ab2{
+  display: block;
+}
+.po2{
+  position: relative;
+}
+.ab3{
+  position: absolute;
+  top: 20%;
+  right: 110%;
+  width: 210%;
+}
+.item{
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.homebg{
+  background-image: url(../public/images/hero.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 97%;
+  margin: auto;
+}
+.anotherbg1{
+  background-image: url(../public/images/bg-03.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 97%;
+  margin: auto;
+
+}
+.anotherbg4{
+  background: url(../public/images/bg-05.jpg);
+  background-size: 100% 100%;
+  width: 97%;
+  margin: auto;
+}
+.anotherbg2{
+  background-image: url(../public/images/bg-001.jpg);
+  background-size: 100% 100%;
+
+}
+.anotherbg3{
+  background-image: url(../public/images/bg-02.jpg);
+  background-size: 100% 100%;
+}
+.anotherbg5{
+  background: url(../public/images/bg-04.jpg);
+  background-size: 100% 100%;
+  width: 97%;
+  margin: auto;
+}
+.anotherbg6{
+  background: url(../public/images/bg-06.jpg);
+  background-size: 100% 100%;
+  width: 97%;
+  margin: auto;
+}
+.w1{
+  width: 97%;
+}
+.w2{
+  width: 90%;
+}
+.w3{
+  width: 50%;
+}
+.w5{
+  width: 75%;
+}
+.w4{
+  width: 25%;
+}
+.black{
+  background-color: black;
+  transition: .31s;
+}
+.black:hover{
+  background-color: pink;
+}
+.he2{
+  height: 50px;
+  width: 100%;
+}
+.he3{
+  height: 100px;
+  width: 100%;
+}
+.ho1:hover{
+color: white;
+background-color: black;
+cursor: pointer;
+transition: .31s;
+}
+.padding1{
+  padding: 150px 0px 130px 50px;
+  color: white;
+
+}
+.padding2{
+  padding: 70px 100px;
+  color: white;
+}
+.posi{
+  position: sticky;
+  bottom: -250px;
+}
+.padding3{
+  padding: 170px 0 170px 50px;
+  color: white;
+}
+.padding4{
+  padding: 500px 0 100px 0;
+  color: white;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+
+}
+.round1{
+  background-color: pink;
+  text-align: center;
+  padding: 10px 10px;
+  color: white;
+}
+.round1:hover{
+  background-color: #282c34;
+}
+.inp1{
+  height: 40px;
+  width: 400px;
+}
+.btncs:hover{
+  color: pink;
+  transition: .31s;
+}
+.nav-item {
+  position: relative;
+}
+.pink{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: pink;
+  transition: .31s;
+}
+.nav-item:hover .pink{
+  width: 100%;
+}
+.li1
+{
+  list-style: none;
+  display: inline;
+  padding-right: 30px; 
+ 
+}
+.none1{
+  display: none;
+}
+.nav-item{
+  margin-right: 30px;
+}
+.round1{
+  padding: 7px 0px;
+}
+@media(max-width:992px){
+.none2{
+  display: none;
+}
+.none1{
+  display: block;
+}
+.padding2{
+  padding: 30px 50px;
+  width: 100%;
+}
+}
+@media(max-width:768px){
+  .w3{
+    width: 80%;
+  }
+  .inp1{
+    width: 350px;
+  }
+  .w4{
+    width: 50%;
+  }
+}
+@media (max-width:500px){
+  .w3{
+    width: 90%;
+  }
+  
+}
+/* custom css end */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
